@@ -1,0 +1,109 @@
+// media queries
+@media (max-width: 813px) {
+    .nav ul {
+        margin: 0px 0px 0px 0px;
+    }
+}
+
+
+@media (max-width: 775px) {
+
+    .nav .nav-icon {
+        color: red;
+        display: block;
+        z-index: 999;
+        margin: 33px 38px;
+        font-size: 24px;
+    }
+
+    .nav ul {
+        position: absolute;
+        flex-direction: column;
+        background-color: black;
+        right: -1000px;
+        height: 100vh;
+        width: 50vw;
+
+
+        li a {
+            color: rgb(255, 255, 255);
+        }
+
+        li a:hover {
+            color: red;
+        }
+    }
+
+    .home .home-items .background .text-back {
+        top: 42%;
+
+        h2 {
+            font-size: 29px;
+        }
+    }
+
+
+
+
+    #click:checked~.nav-icon i:before {
+        content: "\f00d";
+        color: white;
+    }
+
+    #click:checked~ul {
+        right: 0px;
+        top: 0px;
+    }
+
+    .welcome-item {
+
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+@media (max-width:589px) {
+    .home .home-items .background .text-back {
+        top: 27%;
+
+        h2 {
+            font-size: 25px;
+        }
+
+        .btn {
+            margin-top: 8px;
+        }
+    }
+
+}
+
+@media (max-width:489px) {
+    .home .home-items .background .text-back {
+        top: 27%;
+
+        h2 {
+            font-size: 25px;
+        }
+
+        .btn {
+            margin-top: 8px;
+        }
+    }
+
+}
+
+@media (max-width:307px) {
+    .home .home-items .background .text-back {
+        top: 25%;
+
+        h2 {
+            font-size: 20px;
+        }
+
+        .btn {
+            margin-top: 4px;
+        }
+    }
+
+}
